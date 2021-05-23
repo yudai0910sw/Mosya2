@@ -1,101 +1,105 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mosya 2</title>
-    <script src="mosya2.js"></script>
-    <link rel="stylesheet" href="stylesheet.css">
-   <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-</head>
-<body>
-    <div class="big-bg" id="home">
-        <header class="page-header wrapper">
-                <a href="#"><img class="logo" src="https://danblog.tokyo/img/header_logo.png" ></a>
-                <nav class="NavMenu">
-                    <ul>
-                    <li class=”current”><a href=”#”>企業理念</a></li>
-                    <li><a href=”#”>施工事例</a></li>
-                    <li><a href=”#”>採用情報</a></li>
-                    <li><a href=”#”>お問い合わせ</a></li>
-                    </ul>
-                </nav>
-        </header>
 
-        <!-- ハンバーガーメニュー --> 
-<div class="Toggle">
-    <span class="toggle-span"></span>
-    <span></span>
-    <span></span>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mosya 2</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="stylesheet.css">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="big-bg" id="home">
+    <header class="page-header wrapper">
+      <a href="#"><img class="logo" src="https://danblog.tokyo/img/header_logo.png"></a>
+      <nav class="NavMenu">
+        <ul>
+          <li class=”current”><a href=”#”>企業理念</a></li>
+          <li><a href=”#”>施工事例</a></li>
+          <li><a href=”#”>採用情報</a></li>
+          <li><a href=”#”>お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ハンバーガーメニュー -->
+    <div class="Toggle">
+      <span class="toggle-span"></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="content">
+      <h1>街を作る。未来を作る。</h1>
+    </div>
   </div>
 
-        <div class="content">
-            <h1>街を作る。未来を作る。</h1>
+
+  <div class="information">
+    <h1>お知らせ</h1>
+    <ul>
+      <li>本社打合せ室が完成しました。</li>
+      <li>【メディア掲載】住宅雑誌 2020年11月号</li>
+      <li>ホームページが完成しました。</li>
+    </ul>
+  </div>
+
+
+
+  <div class="example-title">
+    <div class="container">
+      <h1>施工事例</h1>
+    </div>
+  </div>
+  <div class="example">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="img1" src="https://danblog.tokyo/img/building1.png">
+          <h2>M様邸新築工事</h2>
+          <p>埼玉県</p>
+          <p>詳細を見る</p>
         </div>
-    </div>
-    
-
-    <div class="information">
-        <h1>お知らせ</h1>
-        <ul>
-            <li>本社打合せ室が完成しました。</li>
-            <li>【メディア掲載】住宅雑誌 2020年11月号</li>
-            <li>ホームページが完成しました。</li>
-        </ul>
-    </div>
-   
-
-
-    <div class="example-title">
-        <div class="container">
-            <h1>施工事例</h1>
+        <div class="col-md-6">
+          <img class="img1" src="https://danblog.tokyo/img/building2.png">
+          <h2>スカイビル</h2>
+          <p>東京都</p>
+          <p>詳細を見る</p>
         </div>
+      </div>
     </div>
-    <div class="example">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="img1" src="https://danblog.tokyo/img/building1.png" >
-                    <h2>M様邸新築工事</h2>
-                    <p>埼玉県</p>
-                    <p>詳細を見る</p>
-                </div>
-                <div class="col-md-6">
-                    <img class="img1" src="https://danblog.tokyo/img/building2.png" >
-                    <h2>スカイビル</h2>
-                    <p>東京都</p>
-                    <p>詳細を見る</p>
-                </div>
-            </div>
+  </div>
+
+  <div class="itiran">
+    <a href="#">施工実績一覧</a>
+  </div>
+
+  <div class="links">
+    <a href="#" class="link-img"><img src="https://danblog.tokyo/img/company.png" alt="企業理念"></a>
+    <a href="#" class="link-img"><img src="https://danblog.tokyo/img/recruit.png" alt="採用情報"></a>
+    <a href="#" class="link-img"><img src="https://danblog.tokyo/img/contact.png" alt="お問い合わせ"></a>
+  </div>
+
+  <footer class="fotter">
+    <div class="fotter-content">
+      <div class="container">
+        <div class="footer-icon">
+          <a href="#"><img src="https://danblog.tokyo/img/footer_logo.png"></a>
         </div>
-    </div>
-
-    <div class="itiran">
-        <a href="#">施工実績一覧</a>
-    </div>
-
-    <div class="links">
-        <a href="#" class="link-img"><img src="https://danblog.tokyo/img/company.png" alt="企業理念"></a>
-        <a href="#" class="link-img"><img src="https://danblog.tokyo/img/recruit.png" alt="採用情報"></a>
-        <a href="#" class="link-img"><img src="https://danblog.tokyo/img/contact.png" alt="お問い合わせ"></a>
-    </div>
-
-    <footer class="fotter">
-        <div class="fotter-content">
-            <div class="container">
-                <div class="footer-icon">
-                    <a href="#"><img  src="https://danblog.tokyo/img/footer_logo.png" ></a>
-                </div>
-                <div class="copy-right">
-                    <p>Copyright © 2020 Aono Corporation.</p>
-                </div>
-            </div>
+        <div class="copy-right">
+          <p>Copyright © 2020 Aono Corporation.</p>
         </div>
-    </footer>
+      </div>
+    </div>
+  </footer>
 
-    <script src="mosya2.js"></script>
+  <script src="C:\Users\yudai\Desktop\Mosya 2\mosya2.js"></script>
 
 </body>
+
 </html>
